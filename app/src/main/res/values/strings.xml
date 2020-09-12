@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppShortcuts</string>
+
+    <string name="add_shortcut_short_label">Add Website</string>
+    <string name="add_shortcut_long_label">Add New Website</string>
+    <string name="add_shortcut_disabled_message">Disabled</string>
+</resources>

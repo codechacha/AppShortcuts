@@ -1,0 +1,14 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="email"
+        android:enabled="true"
+        android:icon="@drawable/add"
+        android:shortcutShortLabel="@string/add_shortcut_short_label"
+        android:shortcutLongLabel="@string/add_shortcut_long_label"
+        android:shortcutDisabledMessage="@string/add_shortcut_disabled_message">
+        <intent
+            android:action="com.example.appshortcuts.ADD_WEBSITE"
+            android:targetPackage="com.example.appshortcuts"
+            android:targetClass="com.example.appshortcuts.AddWebActivity" />
+    </shortcut>
+</shortcuts>
